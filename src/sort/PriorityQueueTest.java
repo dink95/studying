@@ -23,7 +23,6 @@ public class PriorityQueueTest {
         System.out.println(sum);
 
 
-        ArrayList<Queue<Integer>> ar = new ArrayList<>();
 
 
 

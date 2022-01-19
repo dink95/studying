@@ -1,5 +1,7 @@
 package infrun.dfs;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class D2 {
@@ -15,6 +17,7 @@ public class D2 {
 
         max = sc.nextInt();
         n=sc.nextInt();
+
 
 
         weight= new int[n];
