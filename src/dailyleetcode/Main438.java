@@ -2,6 +2,8 @@ package dailyleetcode;
 
 import java.util.*;
 public class Main438 {
+
+    //sliding window 
     class Solution {
         public List<Integer> findAnagrams(String s, String p) {
             int[] alpa = new int[26];
