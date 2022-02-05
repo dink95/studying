@@ -29,20 +29,22 @@ public class Main1697 {
 
         while(!q.isEmpty()){
             int tmp = q.poll();
-            if(tmp==K)
-                break;
-            if(tmp>0&&visited[tmp-1]==0){
+
+            if(tmp-1>=0&&visited[tmp-1]==0){
                 q.offer(tmp-1);
                 visited[tmp-1]=visited[tmp]+1;
-            }
-            if(tmp*2<100001&&visited[tmp*2]==0){
-                q.offer(tmp*2);
-                visited[tmp*2]=visited[tmp]+1;
+
+
             }
             if(tmp+1<100001&&visited[tmp+1]==0){
                 q.offer(tmp+1);
                 visited[tmp+1]=visited[tmp]+1;
             }
+            if(tmp*2<100001&&visited[tmp*2]==0){
+                q.offer(tmp*2);
+                visited[tmp*2]=visited[tmp]+1;
+            }
+
 
 
 
