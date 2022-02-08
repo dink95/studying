@@ -1,4 +1,4 @@
-package programmers.allCheck;
+package programmers.level1;
 
 public class NewId {
     class Solution {
