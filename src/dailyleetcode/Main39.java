@@ -23,12 +23,9 @@ public class Main39 {
                 return;
             }
 
-            // decide whether we use this number
-            // we don't use this number
             dfs(combine, result, target, idx + 1, candidates);
 
-            // if we use this number
-            // first check if we can use this number
+
             if(target >= candidates[idx]){
                 combine.add(candidates[idx]);
                 dfs(combine, result, target - candidates[idx], idx, candidates);
